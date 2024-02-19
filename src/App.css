@@ -1,0 +1,27 @@
+body {
+  display: block;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* ol-zoom ol-unselectable ol-control */
+.ol-zoom {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+}
+.ol-zoom button {
+  width: 30px;
+  padding: 5px;
+}
+.ol-rotate {
+  position: absolute;
+  right: 0;
+  bottom: 92px;
+}
+.ol-rotate button {
+  width: 30px;
+  padding: 5px;
+}

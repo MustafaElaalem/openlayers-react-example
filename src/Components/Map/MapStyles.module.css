@@ -1,0 +1,38 @@
+.placesInputsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+  width: 100%;
+  background-color: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  height: 7rem;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
+
+.splitter {
+  width: 5rem;
+  /* height: 0.3rem; */
+  border: 1px solid rgb(229, 229, 229);
+  border-radius: 20%;
+  background-color: rgb(200, 200, 200);
+  cursor: pointer;
+  margin: 3px;
+  margin-bottom: 5px;
+  padding: 3px;
+  position: absolute;
+  top: 2px;
+  z-index: 2;
+}
+
+.InputsContainer {
+  position: absolute;
+  top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}

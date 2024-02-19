@@ -1,0 +1,1 @@
+export const fetchApi = (url: string, options?: RequestInit) => fetch(url, options)
